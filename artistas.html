@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas</title>
+</head>
+<style>
+    @import url('http://fonts.cdnfonts.com/css/sf-hollywood-hills-3');
+    body{
+        background-image: linear-gradient(to right, rgb(20, 157, 159), rgb(130, 57, 161));
+    }
+    h1{
+        font-family: 'SF Hollywood Hills', sans-serif;
+        font-size: 98px;
+        text-align: center;
+        color: aliceblue;
+    }
+    p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: aliceblue;
+    }
+    table{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+        font-size: 30px;
+        border-collapse: collapse;
+        border-color: #f2f2f2;
+    }
+    h2{
+        font-family: 'SF Hollywood Hills', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        color: aliceblue;
+    }
+    th, td{
+        padding: 8px;
+    }
+    iframe{
+        display: block;
+        margin: 0 auto;
+    }
+    .top10{
+        background-color: rgb(205, 123, 90);
+    }
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .topnav{
+        background-image: linear-gradient(to right, rgb(24, 122, 124), rgb(94, 27, 123));
+        overflow: hidden;
+        text-align: center;
+    }
+    .topnav a{
+        float: center;
+        color: #f2f2f2;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    .topnav a:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(42, 38, 38);
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="series.html">Séries</a>
+        <a  href="artistas.html">Artistas</a>
+    </div>
+    <header>
+        <h1>Bandas do momento</h1>
+    </header>
+    <p>O Top10 da semana foi super concorrido!
+        Está ansioso para saber qual foram os artistas mais tocados da semana?!
+        Ou se o seu artista está incluido no chat?! 
+        Após a tabela, voce poderá ver o video clipe da música mais tocada da semana,
+        Confira abaixo!</p>
+    <table border="1" class="center">
+        <caption>Chart das músicas mais tocadas da semana</caption>
+        <thead>
+            <tr>
+                <th>Artista</th>
+                <th>Música</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The Neighbourhood</td>
+                <td>Sweater Weather</td>
+            </tr>
+            <tr>
+                <td>Wallows</td>
+                <td>Are You Bored Yet?</td>
+            </tr>
+            <tr>
+                <td>Gorillaz</td>
+                <td>Feels Good Inc.</td>
+            </tr>
+            <tr>
+                <td>Billie Eilish</td>
+                <td>i love you</td>
+            </tr>
+            <tr>
+                <td>Glass Animals</td>
+                <td>Heat Waves</td>
+            </tr>
+            <tr>
+                <td>Taylow Swift</td>
+                <td>Style</td>
+            </tr>
+            <tr>
+                <td>The Neighbourhood</td>
+                <td>Daddy Issues</td>
+            </tr>
+            <tr>
+                <td>Foster The People</td>
+                <td>Pumped Up Kicks</td>    
+            </tr>
+            <tr>
+                <td>The Neighbourhood</td>
+                <td>The Beach</td>
+            </tr>
+            <tr>
+                <td>mansionz</td>
+                <td>Gorgeous</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="top10">Artista mais tocado!</td>
+                <td class="top10">The Neighbourhood</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <h2>Video Clipe da semana!</h2>
+    <p>Assista abaixo</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3ylIW-LlrQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
